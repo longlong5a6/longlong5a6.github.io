@@ -1,14 +1,21 @@
-<html>
-<head>
-<title>đâu đó trên mạng</title>
-</head>
-<body>
-<h1>nghịch trang web<h1>
-<h2>long đẹp trai<h2>
-<p>tạo 1 bài viết trên trang của bạn, có thể là 5 like, hay 10 like, giờ thì hãy cố tạo 1 giá trị cho bản thân mình, ví dụ như đạt giải 1 hsg quốc gia, và giờ đăng tải bài viết đó 1 lần nữa,*An Ngân và 109 người khác thích bài viết của bạn,*An ngân đã bình luận về bài viết của bạn. tôi chỉ muốn làm rõ :bạn sẽ trở nên như thế nào nếu bạn có giá trị-Hoàng Long.</p>
-<img src="https://tse1.mm.bing.net/th?id=OIP.ZfmSG97JNqWZ46cVOxzIqgHaIj&pid=Api&P=0&w=143&h=165">
-<p>một hình ảnh về dio j4f</p>
-<body style="background-color:lavender;">
-<p style="color:midnightblue;">
-</body>
-<html>
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">program long;
+uses crt;
+var a,b,c:string;
+function kt(m,n:string):byte;
+var q,w,e,r:integer;
+begin
+e:=0;
+for q:=1 to length(n)-length(m) do
+if n[q]=m[1] then
+begin
+for w:=2 to length(m) do
+if m[w]=n[q+w-1] then e:=e+1;
+ if e=length(m)-1 then r:=1;
+ end;
+kt:=r;end;
+begin
+clrscr;
+readln(a,b,c);
+if (kt(c,a)=1) and (kt(c,b)=1) then write('yes') else write('no');
+readln end.
+</pre></body></html>
